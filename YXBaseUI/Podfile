@@ -1,0 +1,15 @@
+workspace 'YXBaseUI'
+xcodeproj 'YXBaseUILib/YXBaseUILib.xcodeproj'
+xcodeproj 'YXBaseUIDemo/YXBaseUIDemo.xcodeproj'
+
+target 'YXBaseUILib' do
+    platform:ios, '7.0'
+    
+    xcodeproj 'YXBaseUILib/YXBaseUILib.xcodeproj'
+end
+
+target 'YXBaseUIDemo' do
+    platform:ios, '7.0'
+    
+    xcodeproj 'YXBaseUIDemo/YXBaseUIDemo.xcodeproj'
+end
